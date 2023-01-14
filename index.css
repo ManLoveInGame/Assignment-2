@@ -11,7 +11,8 @@ h1{
 }
 
 .Container {
-    width: 100%;    
+    width: 100%; 
+    margin-top: 2%;   
 }
 
 .Container > .row {    
