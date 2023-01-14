@@ -19,15 +19,17 @@ h1{
     width: 30%;
     float: left;
     padding: 10px 20px;
-    margin: 15px 30px;
+    margin: 15px 15px;
     border: 2px solid;
     background-color: gray;
     font-weight: bold;
 }
 
 .Container > .row > .title{
+    padding: 0;
+    margin: 0;
     position: relative;    
-    top: -2vh;
+    top: -1.3vh;
     left: 20.5vw;
     width: 30%;    
     border: 1px solid;
@@ -46,4 +48,41 @@ h1{
 }
 .Container > .row > .title > h3{
     text-align: center;
+}
+
+@media (min-width : 992px){
+    .Container > .row:first-child {    
+    margin-left: 2%;
+}
+}
+
+@media (min-width : 768px) and (max-width : 991px){    
+    .Container > .row:first-child,
+    .Container > .row:nth-child(2) {    
+        width: 45%;
+    }    
+    .Container > .row:first-child > .title,
+    .Container > .row:nth-child(2) > .title{    
+        left: 22vw;
+    }
+    .Container > .row:last-child {    
+        width: 94%;
+    }
+    .Container > .row:last-child > .title{            
+        width: 154px;
+        left: 71vw;
+    }
+    .Container > .row > .title{
+        width: 154px;
+    }
+}
+
+@media (max-width : 767px){
+    .Container > .row{
+     width : 90%;   
+    }
+    .Container > .row > .title{
+        width: 154px;
+        left : 67vw;
+    }
 }
