@@ -63,14 +63,14 @@ h1{
     }    
     .Container > .row:first-child > .title,
     .Container > .row:nth-child(2) > .title{    
-        left: 22vw;
+        left: 27.1vw;
     }
     .Container > .row:last-child {    
         width: 94%;
     }
     .Container > .row:last-child > .title{            
         width: 154px;
-        left: 71vw;
+        left: 76.1vw;
     }
     .Container > .row > .title{
         width: 154px;
