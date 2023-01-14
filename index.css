@@ -1,5 +1,48 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Caveat', cursive;
+    Box-sizing : Border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.Container {
+    width: 100%;    
+}
+
+.Container > .row {    
+    width: 30%;
+    float: left;
+    padding: 10px 20px;
+    margin: 15px 30px;
+    border: 2px solid;
+    background-color: gray;
+    font-weight: bold;
+}
+
+.Container > .row > .title{
+    position: relative;    
+    top: -2vh;
+    left: 20.5vw;
+    width: 30%;    
+    border: 1px solid;
+}
+.Container > .row:first-child > .title{
+    background-color: orange;
+}
+.Container > .row:nth-child(2) > .title{
+    background-color: red;
+}
+.Container > .row:nth-child(2) > .title > h3{
+    color: white;
+}
+.Container > .row:last-child > .title{
+    background-color: yellow;
+}
+.Container > .row > .title > h3{
+    text-align: center;
 }
